@@ -5,7 +5,7 @@
     "image": "https://imgur.com/kbGs6zH.png",
     "description": "A platform for web developers to showcase their projects",
     "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
+    "source_code": "https://github.com/rishi-kesh-sharma/driwwwle-v2",
     "demo": "https://driwwwle.com/"
   },
   {
@@ -22,7 +22,7 @@
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "A food ordering platform for healthy and home-cooked meals",
     "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
+    "source_code": "https://github.com/rishi-kesh-sharma/healthyways",
     "demo": "https://healthyways.herokuapp.com/"
   },
   {
@@ -31,7 +31,7 @@
     "image": "https://imgur.com/mKkz0iz.png",
     "description": "A themeable and developer-centric portfolio based on the VSCode",
     "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
+    "source_code": "https://github.com/rishi-kesh-sharma/vscode-portfolio",
     "demo": "http://vscode-portfolio.vercel.app/"
   }
 ]
