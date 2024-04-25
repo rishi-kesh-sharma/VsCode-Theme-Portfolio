@@ -20,16 +20,16 @@ const explorerItems = [
     path: "/contact",
     icon: "css_icon.svg",
   },
-  {
-    name: "projects.js",
-    path: "/projects",
-    icon: "js_icon.svg",
-  },
-  {
-    name: "articles.json",
-    path: "/articles",
-    icon: "json_icon.svg",
-  },
+  // {
+  //   name: "projects.js",
+  //   path: "/projects",
+  //   icon: "js_icon.svg",
+  // },
+  // {
+  //   name: "articles.json",
+  //   path: "/articles",
+  //   icon: "json_icon.svg",
+  // },
   {
     name: "github.md",
     path: "/github",
@@ -61,7 +61,7 @@ const Explorer = () => {
         <div
           className={styles.files}
           style={portfolioOpen ? { display: "block" } : { display: "none" }}>
-          {explorerItems.map((item) => (
+          {explorerItems.map((item, index) => (
             <Link href={item.path} key={item.name}>
               <div className={styles.file}>
                 <Image

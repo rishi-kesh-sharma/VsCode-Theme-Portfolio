@@ -17,10 +17,10 @@ const AboutPage = () => {
         </p>
       </h3>
       <p style={{ fontWeight: "100" }}>
-        Welcome to Rishikesh Sharma's About Page! With a passion for creating
-        seamless web applications and a strong command over the MERN (MongoDB,
-        Express.js, React.js, Node.js) stack, Rishikesh is a dedicated and
-        skilled developer ready to make an impact in the digital world.
+        Welcome to Rishikesh Sharma&apos;s About Page! With a passion for
+        creating seamless web applications and a strong command over the MERN
+        (MongoDB, Express.js, React.js, Node.js) stack, Rishikesh is a dedicated
+        and skilled developer ready to make an impact in the digital world.
       </p>
       <p style={{ fontWeight: "200" }}>
         My journey in the realm of technology began with a profound interest in

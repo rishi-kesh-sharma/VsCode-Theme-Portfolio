@@ -18,14 +18,14 @@ const sidebarTopItems = [
     Icon: GithubIcon,
     path: "/github",
   },
-  {
-    Icon: CodeIcon,
-    path: "/projects",
-  },
-  {
-    Icon: PencilIcon,
-    path: "/articles",
-  },
+  // {
+  //   Icon: CodeIcon,
+  //   path: "/projects",
+  // },
+  // {
+  //   Icon: PencilIcon,
+  //   path: "/articles",
+  // },
   {
     Icon: MailIcon,
     path: "/contact",
@@ -68,8 +68,8 @@ const Sidebar = () => {
         ))}
       </div>
       <div className={styles.sidebarBottom}>
-        {sidebarBottomItems.map(({ Icon, path }) => (
-          <div className={styles.iconContainer}>
+        {sidebarBottomItems.map(({ Icon, path }, index) => (
+          <div key={index} className={styles.iconContainer}>
             <Link href={path} key={path}>
               <Icon
                 fill={
