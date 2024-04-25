@@ -1,11 +1,11 @@
 import styles from "../styles/ContactCode.module.css";
 
 const contactItems = [
-  {
-    social: "website",
-    link: "Rishikesh",
-    href: "https:portfolio-rishi.netlify.app",
-  },
+  // {
+  //   social: "website",
+  //   link: "Rishikesh",
+  //   href: "https://portfolio-rishi.netlify.app",
+  // },
   {
     social: "email",
     link: "rks83601@gmail.com",
