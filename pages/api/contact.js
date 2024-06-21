@@ -5,7 +5,7 @@ const notion = new Client({
   auth: process.env.NOTION_API_TOKEN,
 });
 
-export default async (req, res) => {
+const contact = async (req, res) => {
   if (req.method !== "POST") {
     return res.status(405).json({ msg: "Only POST requests are allowed" });
   }
@@ -72,3 +72,5 @@ export default async (req, res) => {
     res.status(500).json({ msg: "Failed" });
   }
 };
+
+export default contact;

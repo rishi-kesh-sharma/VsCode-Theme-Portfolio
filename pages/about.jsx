@@ -31,7 +31,7 @@ const AboutPage = () => {
       </p>{" "}
       <h3>
         Are you ready to embark on a digital journey? Connect with me today and
-        let his expertise transform your ideas into reality.
+        let my expertise transform your ideas into reality.
       </h3>
     </div>
   );
